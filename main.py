@@ -1,6 +1,7 @@
 """One Sentence for a Traveler from 1800 — make.fun entry (u-po-pu-one-sentence-for-a-traveler-from-1800-7e6162fb).
 
-Writes the one-sentence entry text to /output/entry.txt (UTF-8, 1..200 chars).
+Writes the one-sentence entry text to /output/entry.txt (UTF-8, 1..200 chars,
+not blank). The scorer re-runs this program in a fresh sandbox, twice.
 """
 from pathlib import Path
 
